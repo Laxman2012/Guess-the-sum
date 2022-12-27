@@ -43,7 +43,7 @@ function check()
     answer = get_answer.toLowerCase();
     console.log("answer in lowercase - " + answer);
 
-    if(answer==word)
+    if(answer==actual_answer)
     {
 
        if(answer_turn=="player_1") 
